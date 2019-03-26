@@ -10,6 +10,6 @@ def oxford_comma(array)
     x = array
     comma << x
     oxford << y 
-    
+    comma.join
   end
 end
