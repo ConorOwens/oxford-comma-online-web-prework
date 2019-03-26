@@ -6,6 +6,10 @@ def oxford_comma(array)
   else
     comma = []
     oxford = []
-    y = array
+    y = array.pop!
+    x = array
+    comma << x
+    oxford << y 
+    
   end
 end
