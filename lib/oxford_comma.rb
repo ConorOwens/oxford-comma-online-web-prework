@@ -4,12 +4,14 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   else
+     
+    
     comma = []
     oxford = []
     y = array.pop
     x = array
     comma << x
     oxford << y 
-    comma.join(", ") << oxford.join(" and ")
+    comma.join(", ") << oxford.join
   end
 end
